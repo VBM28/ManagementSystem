@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userPackage.UserController">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Main">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="32.0" prefWidth="99.0" text="Employee ID" />
+                        <Label layoutX="14.0" layoutY="46.0" prefHeight="23.0" prefWidth="71.0" text="First Name" />
+                        <Label layoutX="14.0" layoutY="74.0" prefHeight="23.0" prefWidth="70.0" text="Last Name" />
+                        <Label layoutX="17.0" layoutY="107.0" prefHeight="18.0" prefWidth="79.0" text="Email" />
+                        <Label fx:id="idLabel" layoutX="107.0" layoutY="22.0" prefHeight="18.0" prefWidth="164.0" />
+                        <Label fx:id="firstNameLabel" layoutX="107.0" layoutY="48.0" prefHeight="18.0" prefWidth="164.0" />
+                        <Label fx:id="lastNameLabel" layoutX="107.0" layoutY="77.0" prefHeight="18.0" prefWidth="164.0" />
+                        <Label fx:id="emailLabel" layoutX="107.0" layoutY="107.0" prefHeight="18.0" prefWidth="164.0" />
+                        <Label fx:id="dobLabel" layoutX="107.0" layoutY="132.0" prefHeight="18.0" prefWidth="164.0" />
+                        <Label layoutX="14.0" layoutY="132.0" prefHeight="18.0" prefWidth="85.0" text="Date Of Birth" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
